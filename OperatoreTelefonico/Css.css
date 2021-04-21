@@ -1,0 +1,18 @@
+.offerta{
+    display: table;
+    margin: 0 auto;
+}
+.offerta1{
+    display: table;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.informazioni{
+    display: table;
+    margin:  auto;
+}
+body{
+    background-color: chartreuse;
+}
