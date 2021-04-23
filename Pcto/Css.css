@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(22, 22, 22);
+}
+.Titolo {
+  background-color:rgb(255, 187, 0);
+  margin: auto;
+  border:rgb(22, 22, 22);
+  text-align: center;
+}
+.Domanda {
+  font-size: 20px;
+  color: tomato;
+  display: table;
+  margin: auto;
+  width: 40%;
+  padding: 8px;
+}
+.davisualizzare {
+    text-align: center;
+    margin:auto;   
+    color:white; 
+}
