@@ -1,0 +1,13 @@
+.titolo {
+    text-align: left;
+    color: black;
+    font-size: 170%;
+}
+
+body {
+    background-color: rgb(41, 253, 4);
+}
+
+.ins {
+    background-color: rgb(255, 255, 255);
+}

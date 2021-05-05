@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Peso Forma</title>
+	<script type="text/javascript" src="calcoli.js">
+	</script>
+	<style type="text/css">
+		.dati {
+			width: 160px;
+			height: 20px;
+			text-align: right;
+		}
+
+		.risultati {
+			color: blue;
+			font-size: 110%;
+		}
+
+		.bottone {
+			width: 100px;
+			height: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+		<p>Età:<a class="home"href="D:\MATTIA\scuola\Informatica\github\sciocotre.github.io\IndeX.html"><img
+          src="D:\MATTIA\scuola\Informatica\github\sciocotre.github.io\Laboratorio\influencer\Immagini\home.png"
+          align="right"
+          alt="home"
+          height="50"
+          
+           /></a> <input type="text" id="Eta" class="dati"></p>
+		
+		<p>Il tuo sesso:
+		    <select id="Sesso">
+				<option>Maschio</option>
+				<option>Femmina</option>
+			</select>
+		</p>
+		<p>Altezza:<input type="text" id="altezza" class="dati">
+		<p> Peso:<input type="text" id="peso" class="dati">
+		<p><input type="button" value="calcola" class="bottone" onclick="calcola()"></p>
+
+		<p id="lorenz" class="risultati">Formula di Lorenz:</p>
+		<p id="broca" class="risultati">Formula di Broca:</p>
+		<p id="wan der vael" class="risultati">Formula Wan Der Vael:</p>
+		<p id="bmi" class="risultati">BMI:</p>
+		
+	</form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <title>Canvas esempio</title>
+    <script type="text/javascript">
+        function creaFigura() {
+            mioCanvas = document.getElementById("myCanvas");
+            ctx = mioCanvas.getContext("2d");
+
+
+            ctx.arc(90, 75, 40, 0, 2*(Math.PI), true);
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = "rgba(0,0,255,1)";
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(175, 75, 40, 0, 2*(Math.PI), true);
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = "black";
+            ctx.stroke();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(260, 75, 40, 0, 2*(Math.PI), true);
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = "red";
+            ctx.stroke();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(140, 125, 40, 0, 2*(Math.PI), true);
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = "yellow";
+            ctx.stroke();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(210, 125, 40, 0, 2*(Math.PI), true);
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = "green";
+            ctx.stroke();
+            ctx.closePath();      
+
+
+
+
+           
+        }
+    </script>
+</head>
+ 
+ 
+<body>
+    <h1>Logo Olimpiadi <a class="home"href="D:\MATTIA\scuola\Informatica\github\sciocotre.github.io\IndeX.html"><img
+          src="D:\MATTIA\scuola\Informatica\github\sciocotre.github.io\Laboratorio\influencer\Immagini\home.png"
+          align="right"
+          alt="home"
+          height="50"
+          
+           /></a></h1>
+    <form>
+        <input type="button" id="ok" value="Disegna" onclick="creaFigura()">
+    </form>
+    <br>
+    <canvas id="myCanvas" width="350" height="300" style="border:1px solid red;">
+        Your browser does not support the html canvas
+    </canvas>
+ 
+</body>
+ 
+</html>

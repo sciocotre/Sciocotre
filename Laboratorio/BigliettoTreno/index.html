@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Treno</title>
+	<script type="text/javascript" src="calcoli.js">
+	</script>
+	<style type="text/css">
+		.dati {
+			width: 160px;
+			height: 20px;
+			text-align: right;
+		}
+
+		.risultati {
+			color: blue;
+			font-size: 110%;
+		}
+
+		.bottone {
+			width: 100px;
+			height: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+		<p>Km: <input type="text" id="km" class="dati">
+
+			<select id="NumeroPersone">
+				<option>1 persona</option>
+				<option>2 persone</option>
+				<option>3 persone</option>
+				<option>4 persone</option>
+				<option>5 persone</option>
+				<option>6 persone</option>
+				<input type="radio" name="Classe" id="primorb" > Prima Classe
+				<input type="radio" name="Classe" id="secondorb"> Seconda Classe
+				<a class="home"href="D:\MATTIA\scuola\Informatica\github\sciocotre.github.io\IndeX.html"><img
+          src="D:\MATTIA\scuola\Informatica\github\sciocotre.github.io\Laboratorio\influencer\Immagini\home.png"
+          align="right"
+          alt="home"
+          height="50"
+          
+           /></a>
+			</select>
+		</p>
+
+
+
+
+
+
+		<p><input type="button" value="calcola" class="bottone" onclick="calcola()"></p>
+
+		<p id="costo" class="risultati">Prezzo da pagare:</p>
+	</form>
+
+
+</body>
+
+</html>
